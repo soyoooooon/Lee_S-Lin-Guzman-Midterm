@@ -1,4 +1,3 @@
-Soyoon Lee, Lin Yufeng, Josue Guzman 's Mid- term
 
 # Anglers.org
 
