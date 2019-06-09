@@ -14,4 +14,4 @@ Built 3 pages and designed 6 pages using design photoshop and illustrators, CSS,
 
 
 ## Pre - Midterm for Trevor
-* 2 pages flexbox - Home, link pages (Contributer - Soyoon Lee, Lin Yufeng)
+* 2 pages flexbox - Home, link pages (Contributor - Soyoon Lee, Lin Yufeng)
