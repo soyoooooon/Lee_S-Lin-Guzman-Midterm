@@ -7,9 +7,9 @@ Built 3 pages and designed 6 pages using design photoshop and illustrators, CSS,
 
 ## Authors
 
-* **Soyoon Lee** -  
-* **Josue Guzman** - 
-* **Lin Yufeng** - 
+* **Soyoon Lee**   
+* **Josue Guzman**  
+* **Lin Yufeng**  
 
 
 
