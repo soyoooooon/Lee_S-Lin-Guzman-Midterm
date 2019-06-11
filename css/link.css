@@ -282,7 +282,7 @@ color: #666666;
 #footer
 {
 margin-top: -500px;
-margin-bottom: 500px; 
+margin-bottom: 0px; 
 width:1200px;
 height:70px;
 background-color:#9abe50;
