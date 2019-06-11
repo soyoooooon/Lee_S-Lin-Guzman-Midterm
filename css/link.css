@@ -281,8 +281,9 @@ color: #666666;
 
 #footer
 {
-margin-top: -500px;
-margin-bottom: 0px; 
+margin-top:-500px;
+bottom: 0px;
+left: 0px;
 width:1200px;
 height:70px;
 background-color:#9abe50;
