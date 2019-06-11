@@ -85,10 +85,11 @@ color: #666666;
 
 
 .h3_Text1{
-  margin-top:75px;
+  margin-top:25px;
   text-align: center;
   font-size: 1.5em;
   color: #666666;
+  margin-bottom: 50px;
 }
 
 #video
@@ -135,98 +136,104 @@ flex-direction: column;
   height: 1050px;
   margin-left:40px;
   float: right;
- 
-}
-.Text_box_title {
-  font-size: 40px;
-  font-family: 'Work+Sans';
-  color: rgb(93, 112, 50);
-  line-height: 1.185;
-  position: absolute;
-  left: 47px;
-  top: 16px;
-  /*z-index: 42;*/
 }
 
-.Txte_content {
-  font-size: 20px;
-  font-family: 'Work+Sans';
-  color: white;
-  line-height: 2;
-  position: absolute;
-  
-  top: 66px;
-  width: 400px;
-  
- /* z-index: 32;*/
+
+
+.conser {
+  font-size: 3em;
+  color: #5d6f31;
+  line-height: 1.185;
+  text-align: center;
 }
+
+
+
+
+.Txte_content {
+  font-size: 15px;
+  color: white;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 600px;
+
+}
+
+
+
 .cricle_photo1{
-  position: absolute;
-  left: 60px;
-  top: 350px;
+ margin-left: 30px;
+ margin-top: 60px;
   width: 150px;
   height: 150px;
   z-index: 1;
 }
+
+.cricle_Text1{
+  color: white;
+  font-size: 14px;
+  line-height: 1.75;
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 230px;
+}
+
+
+
 
 .cricle_photo2{
   position: absolute;
-  left: 60px;
-  top: 550px;
+ margin-left:-150px;
+ margin-top: 300px;
   width: 150px;
   height: 150px;
+
   z-index: 1;
 }
+
+
+.cricle_Text2{
+  font-size: 14px;
+  margin-top: 60px;
+  color: white;
+  line-height: 1.75;
+  position: absolute;
+  margin-left: 230px;
+
+}
+
+
 
 .cricle_photo3{
   position: absolute;
-  left: 60px;
-  top: 750px;
+   margin-left:-150px;
+ margin-top: 600px;
   width: 150px;
   height: 150px;
   z-index: 1;
 }
-.cricle_Text1{
 
-  font-size: 15px;
-  font-family: "Work+Sans";
-  color: rgb(255, 255, 255);
-  line-height: 1.75;
-  position: absolute;
-  left: 220px;
-  top: 400px;
-  z-index: 48;
-}
-.cricle_Text2{
-  font-size: 15px;
-  font-family: "Work+Sans";
-  color: rgb(255, 255, 255);
-  line-height: 1.75;
-  position: absolute;
-  left: 220px;
-  top: 550px;
-  z-index: 35;
-}
+
+
+
 .cricle_Text3{
   font-size: 15px;
-  font-family: "Work+Sans";
-  color: rgb(255, 255, 255);
+  color: white;
   line-height: 1.75;
   position: absolute;
-  left: 220px;
-  top: 800px;
-  z-index: 49;
+  margin-left: 230px;
+  margin-top: 420px;
 }
 /*******/
 
+
+
 .Text_Support_T{
-  font-size:20px;
-  font-family: "Work+Sans";
+  font-size:30px;
+  line-height: 1;
   color: rgb(102, 102, 102);
-  line-height: 1.125;
   position: absolute;
-  left: 0px;
-  top: 0px;
   width: 500px;
   height: 30px;
   z-index: 29;
@@ -234,9 +241,8 @@ flex-direction: column;
 
 .Text_Support1{
   font-size: 15px;
-  font-family: "Work+Sans";
-  color: rgb(102, 102, 102);
-  line-height: 1.125;
+  color: #9abe50;
+  line-height: 1.5;
   position: absolute;
   left: 0px;
   top: 55px;
@@ -246,9 +252,8 @@ flex-direction: column;
 }
 .Text_Support2{
   font-size: 15px;
-  font-family: "Work+Sans";
-  color: rgb(102, 102, 102);
-  line-height: 1.125;
+  color: #9abe50;
+line-height: 1.5;
   position: absolute;
   left: 0px;
   top: 115px;
@@ -256,11 +261,12 @@ flex-direction: column;
   height: 30px;
   z-index: 29;
 }
+
+
 .Text_Support3{
   font-size: 15px;
-  font-family: "Work+Sans";
-  color: rgb(102, 102, 102);
-  line-height: 1.125;
+  color: #9abe50;
+  line-height: 1.5;
   position: absolute;
   left: 0px;
   top:165px;
@@ -270,9 +276,8 @@ flex-direction: column;
 }
 .Text_Support4{
   font-size: 15px;
-  font-family: "Work+Sans";
-  color: rgb(102, 102, 102);
-  line-height: 1.125;
+  color: #9abe50;
+  line-height: 1.5;
   position: absolute;
   left: 0px;
   top: 215px;
@@ -280,21 +285,22 @@ flex-direction: column;
   height: 30px;
   z-index: 29;
 }
+
 .box_Support {
   background-color: white;
   position: absolute;
-  left: 735px;
-  top: 1445px;
+  margin-top: 100px;
+
+  margin-left: 320px;
   width: 800px;
-  height: 162px;
+  height: 400px;
   z-index: 30;
-  
 }
 /***** footer *****/
 
 #footer
 {
-margin-top: 1500px;  
+margin-top: 500px;  
 width:1200px;
 height:70px;
 background-color:#9abe50;
