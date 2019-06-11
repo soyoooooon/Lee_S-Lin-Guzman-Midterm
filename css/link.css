@@ -67,6 +67,14 @@ height: 200px;
 
 /* Nav ends */
 
+#container
+{
+  display:flex;
+  flex-direction: row;
+ width: 1200px;
+}
+
+
 
 .h1_Link {
 margin-top: 12px;
@@ -83,12 +91,15 @@ color: #666666;
   color: #666666;
 }
 
+#video
+{
+display: flex;
+flex-direction: column;
+}
+
 .videobox1{
- 
- 
-  position: absolute;
-  top: 300px;
-  left:370px;
+  /*top: 300px;
+  left:370px;*/
   width: 400px;
   height: 350px;
   background-color:#9abe50;
@@ -97,9 +108,9 @@ color: #666666;
 }
 
 .videobox2 {
-	position: absolute;
-	top: 650px;
-	left:370px;
+	
+	/*top: 650px;
+	left:370px;*/
 	width:  400px;
 	height: 350px;
 	background-color:#5d6f31; 
@@ -107,9 +118,9 @@ color: #666666;
 }
 
 .videobox3{
-	position: absolute;
-	top: 1000px;
-	left:370px;
+
+	/*top: 1000px;
+	left:370px;*/
     width: 400px;
     height: 350px;
     background-color:#666666;
@@ -117,11 +128,13 @@ color: #666666;
 }
 .text_R_Box{
   background-color: rgb(217, 174, 89);
-  position: absolute;
-  left: 900px;
-  top: 300px;
-  width: 647px;
+
+  /*left: 600px;
+  top: 300px;*/
+  width: 650px;
   height: 1050px;
+  margin-left:40px;
+  float: right;
  
 }
 .Text_box_title {
@@ -141,10 +154,10 @@ color: #666666;
   color: white;
   line-height: 2;
   position: absolute;
-  left: 100px;
+  
   top: 66px;
-  width: 505px;
-  height: 118px;
+  width: 400px;
+  
  /* z-index: 32;*/
 }
 .cricle_photo1{
@@ -204,7 +217,7 @@ color: #666666;
   top: 800px;
   z-index: 49;
 }
-
+/*******/
 
 .Text_Support_T{
   font-size:20px;
