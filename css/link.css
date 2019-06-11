@@ -86,9 +86,9 @@ color: #666666;
 .videobox1{
  
  
-  position: absolute;
-  top: 300px;
-  left:370px;
+  position: relative;
+  top: 0px;
+  left:0px;
   width: 400px;
   height: 350px;
   background-color:#9abe50;
@@ -97,9 +97,9 @@ color: #666666;
 }
 
 .videobox2 {
-	position: absolute;
-	top: 650px;
-	left:370px;
+	position: relative;
+	top: 350px;
+	left:-405px;
 	width:  400px;
 	height: 350px;
 	background-color:#5d6f31; 
@@ -107,9 +107,9 @@ color: #666666;
 }
 
 .videobox3{
-	position: absolute;
-	top: 1000px;
-	left:370px;
+	position: relative;
+	top:345px;
+	left:0px;
     width: 400px;
     height: 350px;
     background-color:#666666;
@@ -117,9 +117,9 @@ color: #666666;
 }
 .text_R_Box{
   background-color: rgb(217, 174, 89);
-  position: absolute;
-  left: 900px;
-  top: 300px;
+  position: relative;
+  left: 550px;
+  top: -707px;
   width: 647px;
   height: 1050px;
  
@@ -269,9 +269,9 @@ color: #666666;
 }
 .box_Support {
   background-color: white;
-  position: absolute;
-  left: 735px;
-  top: 1445px;
+  position: relative;
+  left: 400px;
+  top: -660px;
   width: 800px;
   height: 162px;
   z-index: 30;
@@ -281,7 +281,7 @@ color: #666666;
 
 #footer
 {
-margin-top: 1500px;  
+margin-top: -500px;  
 width:1200px;
 height:70px;
 background-color:#9abe50;
