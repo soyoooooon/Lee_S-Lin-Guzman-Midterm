@@ -6,11 +6,12 @@ Soyoon Lee, Lin Yufeng, Josue Guzman 's Mid- term
 
 # Anglers.org
 
-Built 3 pages and designed 6 pages using design photoshop and illustrators, CSS, HTML, JavaScript.
+Designed 6 pages using mainly Photoshop and Illustrator and bulit using CSS, HTML, JavaScript.
+
 
 ## Authors
 
-* **Soyoon Lee** 
-* **Josue Guzman** 
-* **Lin Yufeng**
+* **Soyoon Lee** Programmer/Wireframe Designer
+* **Josue Guzman** Designer and Creative Director
+* **Lin Yufeng** Programmer
 
