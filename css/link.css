@@ -1,7 +1,8 @@
 main
 { 
-  font-family: 'Work Sans', sans-serif;
+  font-family:'Roboto', sans-serif;
     width: 1200px;
+    padding:0 10px 10px 10px;
     margin: 0 auto;
 }
 /* nav */
@@ -55,10 +56,11 @@ transition: all 0.5 linear;
 #logo
 {
 
-width: 180px;
+width: 230px;
 height: 200px;
    float: left;
    padding-left: 50px;
+   
    position: absolute;
    z-index: 1;  
 }
@@ -385,4 +387,24 @@ cursor: pointer;
 
 
 /***** footer *****/
+@media only screen and (
+  min-width: 1024px){
+  main{
+    width: 1200px;
+    padding:0 10px 10px 10px;
+    margin:0 auto;
+  }
+}
 
+
+@media only screen and (min-width: 768px) and(max-width: 1024px){
+
+   main{
+    font-family: font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin:0 auto;
+
+   }
+   #nav-bar{
+    width:auto;
+}

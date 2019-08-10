@@ -58,7 +58,7 @@ transition: all 0.5 linear;
 #logo
 {
 
-width: 180px;
+width: 230px;
 height: 200px;
    float: left;
    padding-left: 50px;
@@ -71,7 +71,7 @@ height: 200px;
 
 .h3_Link
 {
-margin-top: 50px;
+margin-top: 75px;
 text-align: center;
 font-size: 3em; 
 color: #666666;
@@ -330,4 +330,164 @@ display: block;
 color: white;
 text-decoration: none;
 cursor: pointer;
+}
+#hide{
+	display: none;
+}
+
+/*mobile size */
+@media only screen and (max-width: 768px){
+	main{
+		width: auto;
+		margin: 0 auto;
+	}
+	#nav-bar{
+		max-width: 500px;
+		height: 100px;
+		background-color:#9abe50;
+	}
+	#logo
+    {
+     width: 100px;
+    height: 100px;
+    position: relative;
+    left: 120px;
+    }
+
+		
+	
+	.h3_Link{
+		font-size: 1.3em;
+		
+		margin-left: 18px;
+	}
+	.Text_Link1{
+		display: none;
+	}
+	#contact-info{
+		width: auto;
+    }
+    #map{
+    	width:100%;
+    }
+    #mapsize{
+    	
+    	max-width: 440px;
+        max-height: 300px;
+    	margin-left:5px;
+    }
+    #address{
+    	margin-left: -300px;
+    	margin-top: 350px;
+    	width:70%
+
+    }
+    .address{
+    	font-size: 1.1em;
+
+
+    }
+
+
+    .meeting-box{
+    	display: none;
+    }
+    .contact-text{
+    	width: auto;
+    	margin-left: 10px;
+
+    }
+    #box1{
+    	max-width: 110px;
+    }
+    #box2{
+    	max-width: 110px;
+    }
+    #box3{
+
+    	max-width: 110px;
+    	
+
+    }
+
+   .contact-textarea{
+   	width: auto;
+   }
+   #comments{
+   	max-width: 430px;
+   	overflow: auto;
+   	word-break: break-all;
+   }
+   .address h4{
+    float: left;
+    margin-left: -100px;
+
+
+   }
+   .address h6 {
+   	float: right;
+   }
+   .address span {
+   	display: none;
+   }
+   #addressstyle{
+   	margin-top:-25px;
+   	margin-left:40px;
+   }
+    #footer{
+    	max-width: 500px;
+    	float: left;
+    	margin-top: 80px;
+
+    }
+    #footerlogo{
+    	display: none;
+    }
+    .ft1{
+    position: absolute;
+      margin-left:40px;
+      margin-top: 21px;
+      font-size: 0.7em;
+
+     }
+    
+     
+     #backBut{
+     	
+     	display:none;
+
+     }
+     #hide{
+     	display: inline;
+     	position: relative;
+     	max-width: 40px;
+     	margin-left:200px;
+     }
+
+}
+/*mobile size end */
+
+/*tablet size 768px -1024px*/
+@media  only screen and (min-width: 768px)and (max-width: 1024px){
+	main{
+		font-family: 'Roboto', sans-serif;
+		width: 100%;
+		margin:0 auto;
+	}
+	#nav-bar{
+		max-width: 1024px;
+	}
+	
+
+	
+	#logo {
+	     max-width: 160px;
+	}
+
+	.h3_Link{
+		font-size: 1.5em;
+		float:left;
+	}
+	
+
 }
